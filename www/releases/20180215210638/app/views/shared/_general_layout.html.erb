@@ -1,0 +1,130 @@
+<% webpage ||= false %>
+
+<!DOCTYPE html>
+<html>
+  <head style="font-family:Tahoma,'Helvetica Neue',Helvetica,Helvetica,Arial,sans-serif;margin:0;padding:0">
+  	<meta content="width=device-width" name="viewport" style="font-family:Tahoma,'Helvetica Neue',Helvetica,Helvetica,Arial,sans-serif;margin:0;padding:0">
+  	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" style="font-family:Tahoma,'Helvetica Neue',Helvetica,Helvetica,Arial,sans-serif;margin:0;padding:0">
+  	<title style="font-family:Tahoma,'Helvetica Neue',Helvetica,Helvetica,Arial,sans-serif;margin:0;padding:0">PedPass</title>
+  </head>
+  <body bgcolor="#FFFFFF" style="-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:none;font-family:Tahoma,'Helvetica Neue',Helvetica,Helvetica,Arial,sans-serif;height:100%;margin:0;padding:0;position:relative;width:100%!important">
+  	<style>
+  	@media only screen and (max-width:600px){a[class=btn]{display:block!important;margin-bottom:10px!important;background-image:none!important;margin-right:0!important}div[class=column]{width:auto!important;float:none!important}table.social div[class=column]{width:auto!important}}
+  	</style>
+  	<table bgcolor="#6EB431" class="head-wrap" style="font-family:Tahoma,'Helvetica Neue',Helvetica,Helvetica,Arial,sans-serif;margin:0;padding:0;width:100%">
+  		<tbody>
+  			<tr style="font-family:Tahoma,'Helvetica Neue',Helvetica,Helvetica,Arial,sans-serif;margin:0;padding:0">
+  				<td style="font-family:Tahoma,'Helvetica Neue',Helvetica,Helvetica,Arial,sans-serif;margin:0;padding:0"></td>
+  				<td class="header container" style="clear:both!important;display:block!important;font-family:Tahoma,'Helvetica Neue',Helvetica,Helvetica,Arial,sans-serif;margin:0 auto!important;max-width:600px!important;padding:0">
+  					<div class="content" style="display:block;font-family:Tahoma,'Helvetica Neue',Helvetica,Helvetica,Arial,sans-serif;margin:0 auto;max-width:600px;padding:15px">
+  						<table style="font-family:Tahoma,'Helvetica Neue',Helvetica,Helvetica,Arial,sans-serif;margin:0;padding:0;width:100%">
+  							<tbody>
+  								<tr style="font-family:Tahoma,'Helvetica Neue',Helvetica,Helvetica,Arial,sans-serif;margin:0;padding:0">
+  									<td style="font-family:Tahoma,'Helvetica Neue',Helvetica,Helvetica,Arial,sans-serif;margin:0;padding:0">
+                      <%= image_tag('logo.png', style: "font-family:Tahoma,'Helvetica Neue',Helvetica,Helvetica,Arial,sans-serif;margin:0;max-width:100%;padding:0") %>
+  								</tr>
+  							</tbody>
+  						</table>
+  					</div>
+  				</td>
+  				<td style="font-family:Tahoma,'Helvetica Neue',Helvetica,Helvetica,Arial,sans-serif;margin:0;padding:0"></td>
+  			</tr>
+  		</tbody>
+  	</table>
+  	<table class="body-wrap" style="font-family:Tahoma,'Helvetica Neue',Helvetica,Helvetica,Arial,sans-serif;margin:0;padding:0;width:100%">
+  		<tbody>
+  			<tr style="font-family:Tahoma,'Helvetica Neue',Helvetica,Helvetica,Arial,sans-serif;margin:0;padding:0">
+  				<td style="font-family:Tahoma,'Helvetica Neue',Helvetica,Helvetica,Arial,sans-serif;margin:0;padding:0"></td>
+  				<td bgcolor="#FFFFFF" class="container" style="clear:both!important;display:block!important;font-family:Tahoma,'Helvetica Neue',Helvetica,Helvetica,Arial,sans-serif;margin:0 auto!important;max-width:600px!important;padding:0">
+  					<div class="content" style="display:block;font-family:Tahoma,'Helvetica Neue',Helvetica,Helvetica,Arial,sans-serif;margin:0 auto;max-width:600px;padding:15px">
+  						<table style="font-family:Tahoma,'Helvetica Neue',Helvetica,Helvetica,Arial,sans-serif;margin:0;padding:0;width:100%">
+  							<tbody>
+  								<tr style="font-family:Tahoma,'Helvetica Neue',Helvetica,Helvetica,Arial,sans-serif;margin:0;padding:0">
+  									<td style="font-family:Tahoma,'Helvetica Neue',Helvetica,Helvetica,Arial,sans-serif;margin:0;padding:0">
+  										<h1 class="bold" style="color:#4E4B4C;font-family:Tahoma,HelveticaNeue-Light,'Helvetica Neue Light','Helvetica Neue',Helvetica,Arial,'Lucida Grande',sans-serif;font-size:40px;font-weight:700;line-height:48px;margin:0;margin-bottom:15px;padding:0">
+                        <%= yield :header %>
+                      </h1>
+  										<h4 style="color:#000;font-family:Tahoma,HelveticaNeue-Light,'Helvetica Neue Light','Helvetica Neue',Helvetica,Arial,'Lucida Grande',sans-serif;font-size:24px;font-weight:500;line-height:1.1;margin:0;margin-bottom:15px;padding:0">
+                        <%= yield :sub_header %>
+                      </h4>
+                      <% if webpage %>
+                        <%= yield %>
+                      <% else %>
+    										<h5 class="bold" style="color:#4E4B4C;font-family:Tahoma,HelveticaNeue-Light,'Helvetica Neue Light','Helvetica Neue',Helvetica,Arial,'Lucida Grande',sans-serif;font-size:17px;font-weight:700;line-height:1.1;margin:0;margin-bottom:15px;padding:0">
+                          <%= yield %>
+                        </h5>
+                      <% end %>
+  									</td>
+  								</tr>
+  							</tbody>
+  						</table>
+  					</div>
+  				</td>
+  			</tr>
+  		</tbody>
+  	</table>
+  	<hr style="border:2.5px solid #6EB431;font-family:Tahoma,'Helvetica Neue',Helvetica,Helvetica,Arial,sans-serif;margin:15px 0;padding:0">
+  	<table class="body-wrap" style="font-family:Tahoma,'Helvetica Neue',Helvetica,Helvetica,Arial,sans-serif;margin:0;margin-bottom:261px;padding:0;width:100%">
+  		<tbody>
+  			<tr style="font-family:Tahoma,'Helvetica Neue',Helvetica,Helvetica,Arial,sans-serif;margin:0;padding:0">
+  				<td style="font-family:Tahoma,'Helvetica Neue',Helvetica,Helvetica,Arial,sans-serif;margin:0;padding:0"></td>
+  				<td bgcolor="#FFFFFF" class="container" style="clear:both!important;display:block!important;font-family:Tahoma,'Helvetica Neue',Helvetica,Helvetica,Arial,sans-serif;margin:0 auto!important;max-width:600px!important;padding:0">
+  					<div class="content" style="display:block;font-family:Tahoma,'Helvetica Neue',Helvetica,Helvetica,Arial,sans-serif;margin:0 auto;max-width:600px;padding:15px">
+  						<table style="font-family:Tahoma,'Helvetica Neue',Helvetica,Helvetica,Arial,sans-serif;margin:0;padding:0;width:100%">
+  							<tbody>
+  								<tr style="font-family:Tahoma,'Helvetica Neue',Helvetica,Helvetica,Arial,sans-serif;margin:0;padding:0">
+  									<td align="center" style="font-family:Tahoma,'Helvetica Neue',Helvetica,Helvetica,Arial,sans-serif;margin:0;padding:0">
+  										<h1 class="bold" style="color:#4E4B4C;font-family:Tahoma,HelveticaNeue-Light,'Helvetica Neue Light','Helvetica Neue',Helvetica,Arial,'Lucida Grande',sans-serif;font-size:40px;font-weight:700;line-height:48px;margin:0;margin-bottom:15px;padding:0">Support</h1>
+  										<h4 style="color:#000;font-family:Tahoma,HelveticaNeue-Light,'Helvetica Neue Light','Helvetica Neue',Helvetica,Arial,'Lucida Grande',sans-serif;font-size:24px;font-weight:500;line-height:1.1;margin:0;margin-bottom:15px;padding:0">If you have any questions we’re here to help.</h4>
+  									</td>
+  									<td style="font-family:Tahoma,'Helvetica Neue',Helvetica,Helvetica,Arial,sans-serif;margin:0;padding:0"></td>
+  								</tr>
+  								<tr style="font-family:Tahoma,'Helvetica Neue',Helvetica,Helvetica,Arial,sans-serif;margin:0;padding:0">
+  									<td align="center" style="font-family:Tahoma,'Helvetica Neue',Helvetica,Helvetica,Arial,sans-serif;margin:0;padding:0"><a class="btn" style="background-color:#6EB71F;box-sizing:border-box;color:rgba(0,15,21,.9);cursor:pointer;display:inline-block;font-family:Tahoma,'Helvetica Neue',Helvetica,Helvetica,Arial,sans-serif;font-size:16px;line-height:22px;margin:0;margin-right:10px;margin-top:5px;padding:10px 16px;text-align:center;text-decoration:none;width:100%">Email Us</a></td>
+  								</tr>
+  								<tr style="font-family:Tahoma,'Helvetica Neue',Helvetica,Helvetica,Arial,sans-serif;margin:0;padding:0">
+  									<td align="center" style="font-family:Tahoma,'Helvetica Neue',Helvetica,Helvetica,Arial,sans-serif;margin:0;padding:0"><a class="btn" style="background-color:#6EB71F;box-sizing:border-box;color:rgba(0,15,21,.9);cursor:pointer;display:inline-block;font-family:Tahoma,'Helvetica Neue',Helvetica,Helvetica,Arial,sans-serif;font-size:16px;line-height:22px;margin:0;margin-right:10px;margin-top:20px;padding:10px 16px;text-align:center;text-decoration:none;width:100%">FAQs</a></td>
+  								</tr>
+  							</tbody>
+  						</table>
+  					</div>
+  				</td>
+  			</tr>
+  		</tbody>
+  	</table>
+  	<table class="footer-wrap" style="background-color:#231F20;bottom:0;clear:both!important;font-family:Tahoma,'Helvetica Neue',Helvetica,Helvetica,Arial,sans-serif;height:241px;margin:0;padding:0;position:absolute;width:100%">
+  		<tbody>
+  			<tr style="font-family:Tahoma,'Helvetica Neue',Helvetica,Helvetica,Arial,sans-serif;margin:0;padding:0">
+  				<td align="center" style="font-family:Tahoma,'Helvetica Neue',Helvetica,Helvetica,Arial,sans-serif;margin:0;padding:0">
+  					<table class="social-links" style="font-family:Tahoma,'Helvetica Neue',Helvetica,Helvetica,Arial,sans-serif;margin:0;margin-top:10px;padding:0">
+  						<tbody style="font-family:Tahoma,'Helvetica Neue',Helvetica,Helvetica,Arial,sans-serif;margin:0;padding:0">
+  							<tr style="font-family:Tahoma,'Helvetica Neue',Helvetica,Helvetica,Arial,sans-serif;margin:0;padding:0">
+  								<td style="font-family:Tahoma,'Helvetica Neue',Helvetica,Helvetica,Arial,sans-serif;margin:0;padding:0">
+                    <a style="color:#2BA6CB;font-family:Tahoma,'Helvetica Neue',Helvetica,Helvetica,Arial,sans-serif;margin:0;padding:0">
+                      <%= image_tag('facebook.png', style: "font-family:Tahoma,'Helvetica Neue',Helvetica,Helvetica,Arial,sans-serif;margin:0;max-width:100%;padding:0") %>
+                    </a>
+                    <a style="color:#2BA6CB;font-family:Tahoma,'Helvetica Neue',Helvetica,Helvetica,Arial,sans-serif;margin:0;margin-left:40px;padding:0">
+                      <%= image_tag('twitter.png', style: "font-family:Tahoma,'Helvetica Neue',Helvetica,Helvetica,Arial,sans-serif;margin:0;max-width:100%;padding:0") %>
+                    </a>
+                    <a style="color:#2BA6CB;font-family:Tahoma,'Helvetica Neue',Helvetica,Helvetica,Arial,sans-serif;margin:0;margin-left:40px;padding:0">
+                      <%= image_tag('link.png', style: "font-family:Tahoma,'Helvetica Neue',Helvetica,Helvetica,Arial,sans-serif;margin:0;max-width:100%;padding:0") %>
+                    </a>
+                  </td>
+  							</tr>
+  						</tbody>
+  					</table>
+  				</td>
+  			</tr>
+  			<tr style="font-family:Tahoma,'Helvetica Neue',Helvetica,Helvetica,Arial,sans-serif;margin:0;padding:0"><td></td></tr>
+  			<tr style="font-family:Tahoma,'Helvetica Neue',Helvetica,Helvetica,Arial,sans-serif;margin:0;padding:0" valign="bottom">
+  				<td class="container" style="clear:both!important;display:block!important;font-family:Tahoma,'Helvetica Neue',Helvetica,Helvetica,Arial,sans-serif;margin:0 auto!important;max-width:600px!important;padding:0">
+  					<div class="content" style="display:block;font-family:Tahoma,'Helvetica Neue',Helvetica,Helvetica,Arial,sans-serif;margin:0 auto;max-width:600px;padding:15px">
+  						<p style="color:#FFF;font-family:Tahoma;font-size:12px;font-weight:400;line-height:14px;margin:0;margin-bottom:10px;padding:0;text-align:center">Lorem ipsum ac ut arcu vitae Proin lacus Quisque at neque, ex, Mauris augue fringilla sem accumsan urna non dolor.</p>
+  						<p style="color:#FFF;font-family:Tahoma;font-size:12px;font-weight:400;line-height:14px;margin:0;margin-bottom:10px;padding:0;text-align:center">Proin justo, non at urna sed eleifend at purus, ac ullamcorper tortor vitae. Id vehicula. Vehicula eu luctus eget massa Donec eleifend lacus metus, diam vitae. Erat magna ullamcorper. Adipiscing quis, mattis volutpat velit diam arcu.</p>
+  					</div>
+  				</td>
+  			</tr>
+  		</tbody>
+  	</table>
+  </body>
+</html>

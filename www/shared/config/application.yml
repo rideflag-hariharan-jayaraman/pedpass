@@ -1,0 +1,14 @@
+---
+errbit_project_key: e5afe92b273a038f2883c7955af231bc
+device_registration_token: 75982ab10e9cec57
+admin_username: rideflag
+admin_password: rideflagdevbbq
+newrelic_license_key: 9baf6fbf722a90de6a211bb52dc5925dd076b145
+production:
+  secret_key_base: b1c301253bd4cc07e13c5eae2f087f4c9c6eafef2236232bd7018fbb6e85bebcc0f0da9d83b0c6dcee5f7653c67c6acfef3c50d7a1c8851318ecbcc6b0c60e66
+  admin_username: rideflag
+  admin_password: rideflagdevbbq
+  database_username: db_admin
+  database_password: Z9KNrfQ2^9dg3WN
+  database_host: rideflag.cotpyh7qp1wk.us-east-2.rds.amazonaws.com
+  sendgrid_apikey: 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

@@ -1,0 +1,192 @@
+I, [2020-02-13T07:07:02.990096 #3696]  INFO -- : [67d1df2c-3a7a-4e1a-8210-ec51d671657e] Started GET "/" for 35.187.32.180 at 2020-02-13 07:07:02 +0000
+I, [2020-02-13T07:07:02.991015 #3696]  INFO -- : [67d1df2c-3a7a-4e1a-8210-ec51d671657e] Processing by RailsAdmin::MainController#dashboard as */*
+I, [2020-02-13T07:07:02.991340 #3696]  INFO -- : [67d1df2c-3a7a-4e1a-8210-ec51d671657e] Filter chain halted as :_authorize! rendered or redirected
+I, [2020-02-13T07:07:02.991557 #3696]  INFO -- : [67d1df2c-3a7a-4e1a-8210-ec51d671657e] Completed 401 Unauthorized in 0ms (ActiveRecord: 0.0ms)
+I, [2020-02-13T07:07:55.209243 #3696]  INFO -- : [cb6a45bb-b5aa-4770-a5bd-ddfc60ba19f6] Started GET "/" for 164.52.24.162 at 2020-02-13 07:07:55 +0000
+I, [2020-02-13T07:07:55.210256 #3696]  INFO -- : [cb6a45bb-b5aa-4770-a5bd-ddfc60ba19f6] Processing by RailsAdmin::MainController#dashboard as HTML
+I, [2020-02-13T07:07:55.210641 #3696]  INFO -- : [cb6a45bb-b5aa-4770-a5bd-ddfc60ba19f6] Filter chain halted as :_authorize! rendered or redirected
+I, [2020-02-13T07:07:55.210802 #3696]  INFO -- : [cb6a45bb-b5aa-4770-a5bd-ddfc60ba19f6] Completed 401 Unauthorized in 0ms (ActiveRecord: 0.0ms)
+I, [2020-02-13T07:08:04.237822 #3696]  INFO -- : [27f02084-8f61-429e-8bbd-e2cc1ab41e1a] Started GET "/" for 35.187.32.180 at 2020-02-13 07:08:04 +0000
+I, [2020-02-13T07:08:04.238759 #3696]  INFO -- : [27f02084-8f61-429e-8bbd-e2cc1ab41e1a] Processing by RailsAdmin::MainController#dashboard as */*
+I, [2020-02-13T07:08:04.239109 #3696]  INFO -- : [27f02084-8f61-429e-8bbd-e2cc1ab41e1a] Filter chain halted as :_authorize! rendered or redirected
+I, [2020-02-13T07:08:04.239272 #3696]  INFO -- : [27f02084-8f61-429e-8bbd-e2cc1ab41e1a] Completed 401 Unauthorized in 0ms (ActiveRecord: 0.0ms)
+I, [2020-02-13T10:55:24.744833 #3696]  INFO -- : [e8126ae4-9fbf-4992-90f1-efa95f40e3ab] Started GET "/" for 123.103.254.58 at 2020-02-13 10:55:24 +0000
+I, [2020-02-13T10:55:24.745887 #3696]  INFO -- : [e8126ae4-9fbf-4992-90f1-efa95f40e3ab] Processing by RailsAdmin::MainController#dashboard as HTML
+I, [2020-02-13T10:55:24.746218 #3696]  INFO -- : [e8126ae4-9fbf-4992-90f1-efa95f40e3ab] Filter chain halted as :_authorize! rendered or redirected
+I, [2020-02-13T10:55:24.746380 #3696]  INFO -- : [e8126ae4-9fbf-4992-90f1-efa95f40e3ab] Completed 401 Unauthorized in 0ms (ActiveRecord: 0.0ms)
+I, [2020-02-13T13:20:11.573770 #3696]  INFO -- : [1f3871d0-bef9-4c47-adb4-9daf411def24] Started GET "/" for 44.225.84.206 at 2020-02-13 13:20:11 +0000
+I, [2020-02-13T13:20:11.574703 #3696]  INFO -- : [1f3871d0-bef9-4c47-adb4-9daf411def24] Processing by RailsAdmin::MainController#dashboard as */*
+I, [2020-02-13T13:20:11.575354 #3696]  INFO -- : [1f3871d0-bef9-4c47-adb4-9daf411def24] Filter chain halted as :_authorize! rendered or redirected
+I, [2020-02-13T13:20:11.575515 #3696]  INFO -- : [1f3871d0-bef9-4c47-adb4-9daf411def24] Completed 401 Unauthorized in 0ms (ActiveRecord: 0.0ms)
+I, [2020-02-13T13:20:11.877874 #3696]  INFO -- : [c31efead-7845-46e5-88ff-34d230cb4f13] Started GET "/" for 44.225.84.206 at 2020-02-13 13:20:11 +0000
+I, [2020-02-13T13:20:11.878801 #3696]  INFO -- : [c31efead-7845-46e5-88ff-34d230cb4f13] Processing by RailsAdmin::MainController#dashboard as */*
+I, [2020-02-13T13:20:11.879213 #3696]  INFO -- : [c31efead-7845-46e5-88ff-34d230cb4f13] Filter chain halted as :_authorize! rendered or redirected
+I, [2020-02-13T13:20:11.879365 #3696]  INFO -- : [c31efead-7845-46e5-88ff-34d230cb4f13] Completed 401 Unauthorized in 0ms (ActiveRecord: 0.0ms)
+I, [2020-02-13T13:20:12.180920 #3696]  INFO -- : [0adcff80-8b7f-432f-9847-1097912808bd] Started GET "/" for 44.225.84.206 at 2020-02-13 13:20:12 +0000
+I, [2020-02-13T13:20:12.181833 #3696]  INFO -- : [0adcff80-8b7f-432f-9847-1097912808bd] Processing by RailsAdmin::MainController#dashboard as */*
+I, [2020-02-13T13:20:12.182159 #3696]  INFO -- : [0adcff80-8b7f-432f-9847-1097912808bd] Filter chain halted as :_authorize! rendered or redirected
+I, [2020-02-13T13:20:12.182318 #3696]  INFO -- : [0adcff80-8b7f-432f-9847-1097912808bd] Completed 401 Unauthorized in 0ms (ActiveRecord: 0.0ms)
+I, [2020-02-13T13:20:12.484842 #3696]  INFO -- : [5a9c8859-609b-461c-afed-20d64934187e] Started GET "/latest/dynamic/instance-identity/document" for 44.225.84.206 at 2020-02-13 13:20:12 +0000
+F, [2020-02-13T13:20:12.486070 #3696] FATAL -- : [5a9c8859-609b-461c-afed-20d64934187e]   
+F, [2020-02-13T13:20:12.486119 #3696] FATAL -- : [5a9c8859-609b-461c-afed-20d64934187e] ActionController::RoutingError (No route matches [GET] "/latest/dynamic/instance-identity/document"):
+F, [2020-02-13T13:20:12.486143 #3696] FATAL -- : [5a9c8859-609b-461c-afed-20d64934187e]   
+F, [2020-02-13T13:20:12.486175 #3696] FATAL -- : [5a9c8859-609b-461c-afed-20d64934187e] actionpack (5.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+[5a9c8859-609b-461c-afed-20d64934187e] newrelic_rpm (4.7.1.340) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+[5a9c8859-609b-461c-afed-20d64934187e] actionpack (5.1.0) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+[5a9c8859-609b-461c-afed-20d64934187e] newrelic_rpm (4.7.1.340) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+[5a9c8859-609b-461c-afed-20d64934187e] railties (5.1.0) lib/rails/rack/logger.rb:36:in `call_app'
+[5a9c8859-609b-461c-afed-20d64934187e] railties (5.1.0) lib/rails/rack/logger.rb:24:in `block in call'
+[5a9c8859-609b-461c-afed-20d64934187e] activesupport (5.1.0) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+[5a9c8859-609b-461c-afed-20d64934187e] activesupport (5.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+[5a9c8859-609b-461c-afed-20d64934187e] activesupport (5.1.0) lib/active_support/tagged_logging.rb:69:in `tagged'
+[5a9c8859-609b-461c-afed-20d64934187e] railties (5.1.0) lib/rails/rack/logger.rb:24:in `call'
+[5a9c8859-609b-461c-afed-20d64934187e] newrelic_rpm (4.7.1.340) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+[5a9c8859-609b-461c-afed-20d64934187e] actionpack (5.1.0) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+[5a9c8859-609b-461c-afed-20d64934187e] newrelic_rpm (4.7.1.340) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+[5a9c8859-609b-461c-afed-20d64934187e] actionpack (5.1.0) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+[5a9c8859-609b-461c-afed-20d64934187e] newrelic_rpm (4.7.1.340) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+[5a9c8859-609b-461c-afed-20d64934187e] rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+[5a9c8859-609b-461c-afed-20d64934187e] newrelic_rpm (4.7.1.340) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+[5a9c8859-609b-461c-afed-20d64934187e] rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+[5a9c8859-609b-461c-afed-20d64934187e] newrelic_rpm (4.7.1.340) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+[5a9c8859-609b-461c-afed-20d64934187e] activesupport (5.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+[5a9c8859-609b-461c-afed-20d64934187e] newrelic_rpm (4.7.1.340) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+[5a9c8859-609b-461c-afed-20d64934187e] actionpack (5.1.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+[5a9c8859-609b-461c-afed-20d64934187e] newrelic_rpm (4.7.1.340) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+[5a9c8859-609b-461c-afed-20d64934187e] rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+[5a9c8859-609b-461c-afed-20d64934187e] newrelic_rpm (4.7.1.340) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+[5a9c8859-609b-461c-afed-20d64934187e] railties (5.1.0) lib/rails/engine.rb:522:in `call'
+[5a9c8859-609b-461c-afed-20d64934187e] newrelic_rpm (4.7.1.340) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+[5a9c8859-609b-461c-afed-20d64934187e] puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+[5a9c8859-609b-461c-afed-20d64934187e] puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+[5a9c8859-609b-461c-afed-20d64934187e] puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+[5a9c8859-609b-461c-afed-20d64934187e] puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+[5a9c8859-609b-461c-afed-20d64934187e] puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+I, [2020-02-13T13:20:12.791093 #3696]  INFO -- : [65222374-054d-43bf-94c7-9bf182093f19] Started GET "/latest/dynamic/instance-identity/document" for 44.225.84.206 at 2020-02-13 13:20:12 +0000
+F, [2020-02-13T13:20:12.792437 #3696] FATAL -- : [65222374-054d-43bf-94c7-9bf182093f19]   
+F, [2020-02-13T13:20:12.792487 #3696] FATAL -- : [65222374-054d-43bf-94c7-9bf182093f19] ActionController::RoutingError (No route matches [GET] "/latest/dynamic/instance-identity/document"):
+F, [2020-02-13T13:20:12.792511 #3696] FATAL -- : [65222374-054d-43bf-94c7-9bf182093f19]   
+F, [2020-02-13T13:20:12.792542 #3696] FATAL -- : [65222374-054d-43bf-94c7-9bf182093f19] actionpack (5.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+[65222374-054d-43bf-94c7-9bf182093f19] newrelic_rpm (4.7.1.340) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+[65222374-054d-43bf-94c7-9bf182093f19] actionpack (5.1.0) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+[65222374-054d-43bf-94c7-9bf182093f19] newrelic_rpm (4.7.1.340) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+[65222374-054d-43bf-94c7-9bf182093f19] railties (5.1.0) lib/rails/rack/logger.rb:36:in `call_app'
+[65222374-054d-43bf-94c7-9bf182093f19] railties (5.1.0) lib/rails/rack/logger.rb:24:in `block in call'
+[65222374-054d-43bf-94c7-9bf182093f19] activesupport (5.1.0) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+[65222374-054d-43bf-94c7-9bf182093f19] activesupport (5.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+[65222374-054d-43bf-94c7-9bf182093f19] activesupport (5.1.0) lib/active_support/tagged_logging.rb:69:in `tagged'
+[65222374-054d-43bf-94c7-9bf182093f19] railties (5.1.0) lib/rails/rack/logger.rb:24:in `call'
+[65222374-054d-43bf-94c7-9bf182093f19] newrelic_rpm (4.7.1.340) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+[65222374-054d-43bf-94c7-9bf182093f19] actionpack (5.1.0) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+[65222374-054d-43bf-94c7-9bf182093f19] newrelic_rpm (4.7.1.340) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+[65222374-054d-43bf-94c7-9bf182093f19] actionpack (5.1.0) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+[65222374-054d-43bf-94c7-9bf182093f19] newrelic_rpm (4.7.1.340) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+[65222374-054d-43bf-94c7-9bf182093f19] rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+[65222374-054d-43bf-94c7-9bf182093f19] newrelic_rpm (4.7.1.340) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+[65222374-054d-43bf-94c7-9bf182093f19] rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+[65222374-054d-43bf-94c7-9bf182093f19] newrelic_rpm (4.7.1.340) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+[65222374-054d-43bf-94c7-9bf182093f19] activesupport (5.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+[65222374-054d-43bf-94c7-9bf182093f19] newrelic_rpm (4.7.1.340) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+[65222374-054d-43bf-94c7-9bf182093f19] actionpack (5.1.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+[65222374-054d-43bf-94c7-9bf182093f19] newrelic_rpm (4.7.1.340) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+[65222374-054d-43bf-94c7-9bf182093f19] rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+[65222374-054d-43bf-94c7-9bf182093f19] newrelic_rpm (4.7.1.340) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+[65222374-054d-43bf-94c7-9bf182093f19] railties (5.1.0) lib/rails/engine.rb:522:in `call'
+[65222374-054d-43bf-94c7-9bf182093f19] newrelic_rpm (4.7.1.340) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+[65222374-054d-43bf-94c7-9bf182093f19] puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+[65222374-054d-43bf-94c7-9bf182093f19] puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+[65222374-054d-43bf-94c7-9bf182093f19] puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+[65222374-054d-43bf-94c7-9bf182093f19] puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+[65222374-054d-43bf-94c7-9bf182093f19] puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+I, [2020-02-13T13:45:45.906400 #3696]  INFO -- : [cbd6985c-aa34-4bcc-9d64-9a39df2b4601] Started GET "/" for 139.162.113.204 at 2020-02-13 13:45:45 +0000
+I, [2020-02-13T13:45:45.907291 #3696]  INFO -- : [cbd6985c-aa34-4bcc-9d64-9a39df2b4601] Processing by RailsAdmin::MainController#dashboard as HTML
+I, [2020-02-13T13:45:45.907667 #3696]  INFO -- : [cbd6985c-aa34-4bcc-9d64-9a39df2b4601] Filter chain halted as :_authorize! rendered or redirected
+I, [2020-02-13T13:45:45.907827 #3696]  INFO -- : [cbd6985c-aa34-4bcc-9d64-9a39df2b4601] Completed 401 Unauthorized in 0ms (ActiveRecord: 0.0ms)
+I, [2020-02-13T14:04:55.682018 #3696]  INFO -- : [135f026e-b942-43a7-b19a-7fdb732f5326] Started GET "/" for 44.224.22.196 at 2020-02-13 14:04:55 +0000
+I, [2020-02-13T14:04:55.683723 #3696]  INFO -- : [135f026e-b942-43a7-b19a-7fdb732f5326] Processing by RailsAdmin::MainController#dashboard as */*
+I, [2020-02-13T14:04:55.684054 #3696]  INFO -- : [135f026e-b942-43a7-b19a-7fdb732f5326] Filter chain halted as :_authorize! rendered or redirected
+I, [2020-02-13T14:04:55.684249 #3696]  INFO -- : [135f026e-b942-43a7-b19a-7fdb732f5326] Completed 401 Unauthorized in 0ms (ActiveRecord: 0.0ms)
+I, [2020-02-13T14:04:55.983495 #3696]  INFO -- : [823510d7-0088-492a-98e1-ebcb4a9f8202] Started GET "/" for 44.224.22.196 at 2020-02-13 14:04:55 +0000
+I, [2020-02-13T14:04:55.984464 #3696]  INFO -- : [823510d7-0088-492a-98e1-ebcb4a9f8202] Processing by RailsAdmin::MainController#dashboard as */*
+I, [2020-02-13T14:04:55.984831 #3696]  INFO -- : [823510d7-0088-492a-98e1-ebcb4a9f8202] Filter chain halted as :_authorize! rendered or redirected
+I, [2020-02-13T14:04:55.984986 #3696]  INFO -- : [823510d7-0088-492a-98e1-ebcb4a9f8202] Completed 401 Unauthorized in 0ms (ActiveRecord: 0.0ms)
+I, [2020-02-13T14:04:56.284990 #3696]  INFO -- : [ffaf4811-fc86-41f9-a4f9-ad24bb1ba333] Started GET "/" for 44.224.22.196 at 2020-02-13 14:04:56 +0000
+I, [2020-02-13T14:04:56.286003 #3696]  INFO -- : [ffaf4811-fc86-41f9-a4f9-ad24bb1ba333] Processing by RailsAdmin::MainController#dashboard as */*
+I, [2020-02-13T14:04:56.286338 #3696]  INFO -- : [ffaf4811-fc86-41f9-a4f9-ad24bb1ba333] Filter chain halted as :_authorize! rendered or redirected
+I, [2020-02-13T14:04:56.286498 #3696]  INFO -- : [ffaf4811-fc86-41f9-a4f9-ad24bb1ba333] Completed 401 Unauthorized in 0ms (ActiveRecord: 0.0ms)
+I, [2020-02-13T14:04:56.583785 #3696]  INFO -- : [fd05c324-2431-4201-aaa2-5ff9d177ae94] Started GET "/latest/dynamic/instance-identity/document" for 44.224.22.196 at 2020-02-13 14:04:56 +0000
+F, [2020-02-13T14:04:56.585119 #3696] FATAL -- : [fd05c324-2431-4201-aaa2-5ff9d177ae94]   
+F, [2020-02-13T14:04:56.585170 #3696] FATAL -- : [fd05c324-2431-4201-aaa2-5ff9d177ae94] ActionController::RoutingError (No route matches [GET] "/latest/dynamic/instance-identity/document"):
+F, [2020-02-13T14:04:56.585196 #3696] FATAL -- : [fd05c324-2431-4201-aaa2-5ff9d177ae94]   
+F, [2020-02-13T14:04:56.585226 #3696] FATAL -- : [fd05c324-2431-4201-aaa2-5ff9d177ae94] actionpack (5.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+[fd05c324-2431-4201-aaa2-5ff9d177ae94] newrelic_rpm (4.7.1.340) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+[fd05c324-2431-4201-aaa2-5ff9d177ae94] actionpack (5.1.0) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+[fd05c324-2431-4201-aaa2-5ff9d177ae94] newrelic_rpm (4.7.1.340) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+[fd05c324-2431-4201-aaa2-5ff9d177ae94] railties (5.1.0) lib/rails/rack/logger.rb:36:in `call_app'
+[fd05c324-2431-4201-aaa2-5ff9d177ae94] railties (5.1.0) lib/rails/rack/logger.rb:24:in `block in call'
+[fd05c324-2431-4201-aaa2-5ff9d177ae94] activesupport (5.1.0) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+[fd05c324-2431-4201-aaa2-5ff9d177ae94] activesupport (5.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+[fd05c324-2431-4201-aaa2-5ff9d177ae94] activesupport (5.1.0) lib/active_support/tagged_logging.rb:69:in `tagged'
+[fd05c324-2431-4201-aaa2-5ff9d177ae94] railties (5.1.0) lib/rails/rack/logger.rb:24:in `call'
+[fd05c324-2431-4201-aaa2-5ff9d177ae94] newrelic_rpm (4.7.1.340) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+[fd05c324-2431-4201-aaa2-5ff9d177ae94] actionpack (5.1.0) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+[fd05c324-2431-4201-aaa2-5ff9d177ae94] newrelic_rpm (4.7.1.340) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+[fd05c324-2431-4201-aaa2-5ff9d177ae94] actionpack (5.1.0) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+[fd05c324-2431-4201-aaa2-5ff9d177ae94] newrelic_rpm (4.7.1.340) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+[fd05c324-2431-4201-aaa2-5ff9d177ae94] rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+[fd05c324-2431-4201-aaa2-5ff9d177ae94] newrelic_rpm (4.7.1.340) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+[fd05c324-2431-4201-aaa2-5ff9d177ae94] rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+[fd05c324-2431-4201-aaa2-5ff9d177ae94] newrelic_rpm (4.7.1.340) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+[fd05c324-2431-4201-aaa2-5ff9d177ae94] activesupport (5.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+[fd05c324-2431-4201-aaa2-5ff9d177ae94] newrelic_rpm (4.7.1.340) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+[fd05c324-2431-4201-aaa2-5ff9d177ae94] actionpack (5.1.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+[fd05c324-2431-4201-aaa2-5ff9d177ae94] newrelic_rpm (4.7.1.340) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+[fd05c324-2431-4201-aaa2-5ff9d177ae94] rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+[fd05c324-2431-4201-aaa2-5ff9d177ae94] newrelic_rpm (4.7.1.340) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+[fd05c324-2431-4201-aaa2-5ff9d177ae94] railties (5.1.0) lib/rails/engine.rb:522:in `call'
+[fd05c324-2431-4201-aaa2-5ff9d177ae94] newrelic_rpm (4.7.1.340) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+[fd05c324-2431-4201-aaa2-5ff9d177ae94] puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+[fd05c324-2431-4201-aaa2-5ff9d177ae94] puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+[fd05c324-2431-4201-aaa2-5ff9d177ae94] puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+[fd05c324-2431-4201-aaa2-5ff9d177ae94] puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+[fd05c324-2431-4201-aaa2-5ff9d177ae94] puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+I, [2020-02-13T14:04:56.884127 #3696]  INFO -- : [a6c4a1bc-5705-455e-bb75-ecae371955bd] Started GET "/latest/dynamic/instance-identity/document" for 44.224.22.196 at 2020-02-13 14:04:56 +0000
+F, [2020-02-13T14:04:56.885507 #3696] FATAL -- : [a6c4a1bc-5705-455e-bb75-ecae371955bd]   
+F, [2020-02-13T14:04:56.885566 #3696] FATAL -- : [a6c4a1bc-5705-455e-bb75-ecae371955bd] ActionController::RoutingError (No route matches [GET] "/latest/dynamic/instance-identity/document"):
+F, [2020-02-13T14:04:56.885593 #3696] FATAL -- : [a6c4a1bc-5705-455e-bb75-ecae371955bd]   
+F, [2020-02-13T14:04:56.885632 #3696] FATAL -- : [a6c4a1bc-5705-455e-bb75-ecae371955bd] actionpack (5.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+[a6c4a1bc-5705-455e-bb75-ecae371955bd] newrelic_rpm (4.7.1.340) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+[a6c4a1bc-5705-455e-bb75-ecae371955bd] actionpack (5.1.0) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+[a6c4a1bc-5705-455e-bb75-ecae371955bd] newrelic_rpm (4.7.1.340) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+[a6c4a1bc-5705-455e-bb75-ecae371955bd] railties (5.1.0) lib/rails/rack/logger.rb:36:in `call_app'
+[a6c4a1bc-5705-455e-bb75-ecae371955bd] railties (5.1.0) lib/rails/rack/logger.rb:24:in `block in call'
+[a6c4a1bc-5705-455e-bb75-ecae371955bd] activesupport (5.1.0) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+[a6c4a1bc-5705-455e-bb75-ecae371955bd] activesupport (5.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+[a6c4a1bc-5705-455e-bb75-ecae371955bd] activesupport (5.1.0) lib/active_support/tagged_logging.rb:69:in `tagged'
+[a6c4a1bc-5705-455e-bb75-ecae371955bd] railties (5.1.0) lib/rails/rack/logger.rb:24:in `call'
+[a6c4a1bc-5705-455e-bb75-ecae371955bd] newrelic_rpm (4.7.1.340) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+[a6c4a1bc-5705-455e-bb75-ecae371955bd] actionpack (5.1.0) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+[a6c4a1bc-5705-455e-bb75-ecae371955bd] newrelic_rpm (4.7.1.340) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+[a6c4a1bc-5705-455e-bb75-ecae371955bd] actionpack (5.1.0) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+[a6c4a1bc-5705-455e-bb75-ecae371955bd] newrelic_rpm (4.7.1.340) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+[a6c4a1bc-5705-455e-bb75-ecae371955bd] rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+[a6c4a1bc-5705-455e-bb75-ecae371955bd] newrelic_rpm (4.7.1.340) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+[a6c4a1bc-5705-455e-bb75-ecae371955bd] rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+[a6c4a1bc-5705-455e-bb75-ecae371955bd] newrelic_rpm (4.7.1.340) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+[a6c4a1bc-5705-455e-bb75-ecae371955bd] activesupport (5.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+[a6c4a1bc-5705-455e-bb75-ecae371955bd] newrelic_rpm (4.7.1.340) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+[a6c4a1bc-5705-455e-bb75-ecae371955bd] actionpack (5.1.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+[a6c4a1bc-5705-455e-bb75-ecae371955bd] newrelic_rpm (4.7.1.340) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+[a6c4a1bc-5705-455e-bb75-ecae371955bd] rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+[a6c4a1bc-5705-455e-bb75-ecae371955bd] newrelic_rpm (4.7.1.340) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+[a6c4a1bc-5705-455e-bb75-ecae371955bd] railties (5.1.0) lib/rails/engine.rb:522:in `call'
+[a6c4a1bc-5705-455e-bb75-ecae371955bd] newrelic_rpm (4.7.1.340) lib/new_relic/agent/instrumentation/middleware_tracing.rb:92:in `call'
+[a6c4a1bc-5705-455e-bb75-ecae371955bd] puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+[a6c4a1bc-5705-455e-bb75-ecae371955bd] puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+[a6c4a1bc-5705-455e-bb75-ecae371955bd] puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+[a6c4a1bc-5705-455e-bb75-ecae371955bd] puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+[a6c4a1bc-5705-455e-bb75-ecae371955bd] puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+I, [2020-02-13T14:07:34.692762 #3696]  INFO -- : [a084add3-5974-4429-ae7b-29ff5ba8c114] Started GET "/" for 164.52.24.162 at 2020-02-13 14:07:34 +0000
+I, [2020-02-13T14:07:34.693690 #3696]  INFO -- : [a084add3-5974-4429-ae7b-29ff5ba8c114] Processing by RailsAdmin::MainController#dashboard as HTML
+I, [2020-02-13T14:07:34.694083 #3696]  INFO -- : [a084add3-5974-4429-ae7b-29ff5ba8c114] Filter chain halted as :_authorize! rendered or redirected
+I, [2020-02-13T14:07:34.694249 #3696]  INFO -- : [a084add3-5974-4429-ae7b-29ff5ba8c114] Completed 401 Unauthorized in 0ms (ActiveRecord: 0.0ms)

@@ -1,0 +1,32 @@
+es:
+  helpers:
+    label:
+      corner:
+        location_in_intersection: Internal Descriptor
+      crossing:
+        crossing_failure_reason: Failure Reason
+      crosswalk:
+        location: Name (client-facing)
+      setting:
+        var: Name
+  activerecord:
+    errors:
+      models:
+        beacon:
+          attributes:
+            beacon_id:
+              taken: "cannot be used. This combination of ibeacon major and ibeacon minor already exists."
+  classy_enum:
+    gender:
+      m: 'Male'
+      f: 'Female'
+      o: 'Other'
+    message:
+      far_far: 'Not close enough to both corners'
+      far_near: 'Not close enough to the first corner'
+      near_far: 'Not close enough to the second corner'
+      invalid_crosswalk: 'Crossing was not a valid crosswalk'
+      crossing: 'Thanks for using the crosswalk. You have been given 1 point'
+      already_crossed: "You've already crossed this intersection, and have been given no points"
+  custom_responses:
+    unauthorized: 'The username or password is incorrect'

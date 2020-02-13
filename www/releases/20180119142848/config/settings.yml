@@ -1,0 +1,16 @@
+# config/app.yml for rails-settings-cached
+defaults: &defaults
+  beacon_range_near_meters: 3
+  crossing_grace_period_seconds: 300
+  detected_corner_strategy: 'average'
+
+
+
+development:
+  <<: *defaults
+
+test:
+  <<: *defaults
+
+production:
+  <<: *defaults

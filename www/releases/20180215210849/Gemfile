@@ -1,0 +1,71 @@
+source 'https://rubygems.org'
+
+git_source(:github) do |repo_name|
+  repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?('/')
+  "https://github.com/#{repo_name}.git"
+end
+
+gem 'rails', '~> 5.1.0'
+
+gem 'pg', '~> 0.18'
+
+gem 'active_model_serializers', '~> 0.10.0'
+gem 'geokit-rails'
+gem 'puma', '~> 3.7'
+gem 'figaro'
+gem 'newrelic_rpm'
+gem 'rails-settings-cached'
+gem 'rails_admin', '~> 1.2'
+gem 'devise'
+gem 'jwt'
+gem 'classy_enum', '~> 4.0'
+gem "koala"
+ gem 'rails-i18n'
+
+
+group :development do
+  gem 'bullet'
+
+  gem 'capistrano', '~> 3.6'
+  gem 'capistrano-rails', '~> 1.2'
+  gem 'capistrano-rvm'
+  gem 'capistrano-figaro-yml', '~> 1.0.2'
+  gem 'capistrano-rails-console'
+  gem 'capistrano-rake'
+
+  gem 'listen', '>= 3.0.5', '< 3.2'
+
+  gem 'spring'
+  gem 'spring-commands-rspec'
+  gem 'spring-watcher-listen', '~> 2.0.0'
+end
+
+group :test do
+  gem 'database_cleaner'
+
+  gem 'rspec-its'
+  gem 'rspec-rails'
+
+  gem 'shoulda-matchers', '~> 3.1'
+  gem 'simplecov', require: false
+end
+
+group :development, :test do
+  gem 'byebug'
+  gem 'rspec_api_documentation'
+end
+
+group :development, :integration do
+  gem 'apitome'
+  gem 'apitome_slate', github: 'BenMorganIO/apitome_slate'
+end
+
+group :development, :test, :integration do
+  gem "factory_bot_rails"
+  gem 'faker'
+end
+
+group :integration, :production do
+  gem 'airbrake', '5.2.3'
+  gem 'airbrake-ruby', '1.2.2'
+end

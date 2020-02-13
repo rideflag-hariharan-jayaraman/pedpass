@@ -1,0 +1,9 @@
+<%= content_for :header do %>
+  Hi <%= @email %>,
+<% end %>
+
+<%= content_for :sub_header do %>
+  You can confirm your account email through the link below:
+<% end %>
+
+<%= link_to 'Confirm my account', confirmation_url(@resource, confirmation_token: @token) %>

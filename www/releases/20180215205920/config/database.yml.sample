@@ -1,0 +1,12 @@
+defaults: &defaults
+  adapter: postgresql
+  host: localhost
+  pool: 25
+
+development:
+  <<: *defaults
+  database: pedestrian_development
+
+test:
+  <<: *defaults
+  database: pedestrian_test

@@ -1,0 +1,24 @@
+defaults: &defaults
+  adapter: postgresql
+  username: <%= ENV['database_username'] %>
+  password: <%= ENV['database_password'] %>
+  host: localhost
+  pool: 25
+
+development:
+  <<: *defaults
+  database: <%= ENV['database'] %>
+  # host: <%= ENV['database_host'] %>   # connecting to Prod DB
+
+test:
+  <<: *defaults
+  database: <%= ENV['database'] %>
+
+integration:
+  <<: *defaults
+  database: pedestrian-web_integration
+
+production:
+  <<: *defaults
+  database: rideflag_pedestrian_production
+  host: <%= ENV['database_host'] %>

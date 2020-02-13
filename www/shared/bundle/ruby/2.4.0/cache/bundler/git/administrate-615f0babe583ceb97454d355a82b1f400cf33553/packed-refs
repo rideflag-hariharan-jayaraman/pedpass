@@ -1,0 +1,18 @@
+# pack-refs with: peeled fully-peeled 
+8d37899651f8842b1b587a39740cddbde2cd2914 refs/heads/date-field
+ca44f6b0abdceb5008a90945dec50b377cc8a655 refs/heads/decimals-with-floating-point-numbers
+188e3bb9546ae2b67bd30ceeeee9c6dca9d3859f refs/heads/fields-with-ruby-objects
+238a5edf95aacb7af27406910bf6788b7430f2df refs/heads/fix-show-page-spacing
+d4eea257736827917c9323ad49d81025089347e4 refs/heads/flat-colors
+713b5557926881b62472ced7578763b28837cd87 refs/heads/gw-bourbon-5
+dd0b6ead1902e60992e33fdd09bd23ad9a4506d8 refs/heads/gw-clear-search
+47540d21aa81f13998b5550715d7bf6fc5e3624d refs/heads/gw-edit-timeout
+4884b46407338246e939f912811e48a8bfb76bf5 refs/heads/gw-no-to-s
+36be59655c43ca9121c51e58fdc161241e681074 refs/heads/has-many-arrays
+092d55f20ed90ba65c6a26a9dcddab2c3f63482a refs/heads/jro-gem-readme
+db9ed97cf1684a1aaf13f18fc691160f1c6a50f1 refs/heads/master
+7dc25d3b57d713fbbff1fd5d39cb683610a3a0a7 refs/heads/rails-5-1
+8c3d0e61d3e24b15ff7a1d63fa537862b5378b16 refs/heads/rails-5-support
+b49dc9a59543fedc9a84141a97988e73f2a9e783 refs/tags/v0.1.0
+b7a362b67fb14d5f87e56804cd32510b624221b0 refs/tags/v0.1.1
+^c3311ff41b1f97995ee231cda8d5ecadaaeeeeb4

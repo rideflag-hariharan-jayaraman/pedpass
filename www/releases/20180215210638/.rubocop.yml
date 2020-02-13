@@ -1,0 +1,78 @@
+AllCops:
+  Include:
+    - '**/Rakefile'
+    - '**/config.ru'
+
+  Exclude:
+    - 'db/**/*'
+    - 'config/environments/*'
+    - 'config/initializers/rspec_api_documentation.rb'
+
+  DisplayCopNames: true
+  ExtraDetails: true
+  TargetRubyVersion: 2.4
+
+Rails:
+  Enabled: true
+
+Lint/UnusedBlockArgument:
+  Enabled: false
+
+Metrics/AbcSize:
+  Max: 35
+
+Metrics/BlockLength:
+  Exclude:
+    - 'spec/**/*'
+
+Metrics/ClassLength:
+  Enabled: false
+
+Metrics/CyclomaticComplexity:
+  Max: 20
+
+Metrics/MethodLength:
+  CountComments: false
+  Max: 25
+
+Metrics/PerceivedComplexity:
+  Max: 20
+
+Metrics/ModuleLength:
+  Max: 125
+
+Style/AlignHash:
+  Enabled: false
+
+Style/AsciiComments:
+  Enabled: false
+
+Style/BracesAroundHashParameters:
+  EnforcedStyle: context_dependent
+
+Style/Documentation:
+  Enabled: false
+
+Style/Encoding:
+  Enabled: false
+
+Style/FileName:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/MultilineMethodCallIndentation:
+  EnforcedStyle: indented
+
+Style/NestedParenthesizedCalls:
+  Enabled: false
+
+Style/NestedTernaryOperator:
+  Enabled: false
+
+Style/RegexpLiteral:
+  Enabled: false
+
+Style/WordArray:
+  Enabled: false

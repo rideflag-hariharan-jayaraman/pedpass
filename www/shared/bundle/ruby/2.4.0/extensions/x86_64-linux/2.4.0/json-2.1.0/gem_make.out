@@ -1,0 +1,13 @@
+current directory: /home/deploy/www/shared/bundle/ruby/2.4.0/gems/json-2.1.0/ext/json
+/home/deploy/.rvm/rubies/ruby-2.4.1/bin/ruby -r ./siteconf20180215-819-klj86z.rb extconf.rb
+creating Makefile
+
+current directory: /home/deploy/www/shared/bundle/ruby/2.4.0/gems/json-2.1.0/ext/json
+make "DESTDIR=" clean
+
+current directory: /home/deploy/www/shared/bundle/ruby/2.4.0/gems/json-2.1.0/ext/json
+make "DESTDIR="
+make: Nothing to be done for `all'.
+
+current directory: /home/deploy/www/shared/bundle/ruby/2.4.0/gems/json-2.1.0/ext/json
+make "DESTDIR=" install
